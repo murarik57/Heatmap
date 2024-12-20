@@ -84,7 +84,7 @@ const getHeatMapData = () => {
   ];
 };
 
-const App: React.FC = () => {
+const HeatMap: React.FC = () => {
   const [tooltipContent, setTooltipContent] = useState("");
   const [data, setData] = useState(getHeatMapData());
 
@@ -183,4 +183,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default HeatMap;
